@@ -1,0 +1,209 @@
+/* Apply background only to the body */
+body {
+  background: url("./assets/Vector (1).png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F9B80014;
+}
+
+/* Header with white background and bottom border */
+.app-bar {
+  background-color: white !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Light white border */
+  padding: 10px 0;
+}
+
+/* Toolbar styling */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+  width: 100px;
+}
+
+/* Country Select */
+.country-select {
+  background-color: #fff;
+  padding: 5px;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+/* Content Section */
+.content-section {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  color: black;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-section {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-section a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: #FEF8E6;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.subheading {
+  color: #F5B400;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.feature-button {
+  background: white;
+  color: #222;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px 15px;
+  text-transform: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.feature-button:hover {
+  background: #fef5d7;
+}
+
+.feature-button .icon {
+  color: #F5B400;
+  margin-right: 5px;
+}
+
+.cta-button {
+  background: #F5B400;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 12px 20px;
+  text-transform: none;
+}
+
+.cta-button:hover {
+  background: #e3a600;
+}
+.feature-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #ffc107; /* Match background color */
+  border-radius: 100px;
+ margin: 50px;
+}
+
+.feature-banner-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1400px;
+  width: 80%;
+  /* Space between text and image */
+}
+
+.feature-banner-text {
+  flex: 1.2;
+  padding: 10px;
+  text-align: left;
+}
+
+.feature-banner-heading {
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px;
+  color: #262626 !important;
+  
+}
+
+.feature-banner-description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  
+}
+
+.feature-banner-button {
+  background-color: #262626 !important;
+  color: #fff;
+ height: 78px;
+ width: 350px;
+  border-radius: 200px !important;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+}
+
+.feature-banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feature-banner-image img {
+  max-width: 90%; /* Reduce size to match layout */
+  height: auto;
+}
+.highlight-text{
+  text-decoration: underline;
+  font-weight: 600
+}
